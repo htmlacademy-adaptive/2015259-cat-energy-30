@@ -8,10 +8,13 @@
 }
 
 .cards__title {
-  grid-column: span 2;
-  margin-bottom: 8px;
-  max-width: 205px;
-  color: #111111;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #222222;
+  margin: 0;
+  margin-bottom: 14px;
+  max-width: 80px;
 }
 
 .cards__image {
@@ -24,16 +27,6 @@
   justify-self: start;
   width: 100%;
 }
-
-.cards__title {
-  font-size: 16px;
-  line-height: 20px;
-  text-transform: uppercase;
-  color: #222222;
-  margin: 0;
-  margin-bottom: 14px;
-  max-width: 80px;
- }
 
 .cards__description {
   font-size: 12px;
@@ -57,5 +50,4 @@
 .cards__link {
   text-align: center;
   width: 100%;
-
 }

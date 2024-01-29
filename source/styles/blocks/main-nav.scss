@@ -1,21 +1,18 @@
 .main-nav {
   padding: 7px 20px;
   display: flex;
-
 }
 
 .main-nav__list {
   margin: 0;
   padding: 0;
   list-style-type: none;
-
 }
 
 .main-nav__item {
   padding-top: 22px;
   padding-bottom: 24px;
   position: relative;
-
 }
 
 .main-nav__link {
@@ -25,5 +22,4 @@
   text-transform: uppercase;
   color: #000000;
   line-height: 20px;
-
 }

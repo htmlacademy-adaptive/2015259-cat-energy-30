@@ -6,7 +6,7 @@
 
   &::before {
     content: "";
-    background-image: url(../../images/index-background-mobile@1x.jpg);
+    background-image: url("../../images/index-background-mobile@1x.jpg");
     background-color: #64a83b;
     background-size: 302px 310px;
     background-repeat: no-repeat;
@@ -19,7 +19,6 @@
   }
 }
 
-
 .promo__wrapper {
   padding: 20px 20px 0 20px;
   display: flex;
@@ -28,7 +27,6 @@
   align-items: center;
   position: relative;
 }
-
 
 .promo__title {
   text-align: center;
@@ -48,7 +46,6 @@
   margin: 0  0 29px 0;
 }
 
-
 .promo__link {
   background-color: #68b738;
   color: #ffffff;
@@ -61,5 +58,3 @@
   text-align: center;
   margin-bottom: 20px;
 }
-
-
