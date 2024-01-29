@@ -1,0 +1,25 @@
+.other-products {
+  background-color: #ffffff;
+  padding-top: 19px;
+}
+
+.other-products__title {
+  font-family: "Oswald", "Arial", serif;
+  font-size: 24px;
+  line-height: 24px;
+  display: flex;
+  gap: 20px;
+  font-weight: 400;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 36px;
+}
+
+.other-products__list {
+  list-style-type: none;
+  margin: 0 20px;
+  margin-bottom: 35px;
+  padding: 0;
+  padding-top: 13px;
+  border-top: 1px solid #cdcdcd;
+}

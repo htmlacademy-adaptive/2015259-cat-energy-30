@@ -10,31 +10,34 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
   <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
   <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles/styles.css">
+
+
 </head>
 
 <body class="page__body">
   <header class="main-header">
-    <a class="main-header__logo">
+    <a class="main-header__logo" href="#">
       <picture>
-        <source media="(min-width: 1440px)" srcset="images/logo-desktop.svg" type="image/svg+xml" width="70"
+        <source type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo-desktop.svg" width="70"
           height="60">
-        <source media="(min-width: 768px)" srcset="images/logo-tablet.svg" type="image/svg+xml" width="60" height="50">
-        <img src="/source/images/logo-mobile.svg" class="main-header__logo-img" width="33" height="38"
+        <source type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-tablet.svg" width="60" height="50">
+        <img class="main-header__logo-img" src="/source/images/logo-mobile.svg" width="33" height="38"
           alt="Логотип магазина Cat Energy.">
       </picture>
+      <picture>
+        <source media="(min-width: 1440px)" srcset="images/logo-text-desktop.svg" type="image/svg+xml" width="118"
+          height="21">
+        <source media="(min-width: 768px)" srcset="images/logo-text-mobile-tablet.svg" type="image/svg+xml" width="101"
+          height="18">
+        <img class="main-header__logo-text" src="/source/images/logo-text-mobile-tablet.svg" width="101" height="18"
+          alt="Cat energy">
+      </picture>
     </a>
-    <picture>
-      <source media="(min-width: 1440px)" srcset="images/logo-text-desktop.svg" type="image/svg+xml" width="118"
-        height="21">
-      <source media="(min-width: 768px)" srcset="images/logo-text-mobile-tablet.svg" type="image/svg+xml" width="101"
-        height="18">
-      <img class="logo__text " src="/source/images/logo-text-mobile-tablet.svg" width="101" height="18"
-        alt="Cat energy">
-    </picture>
 
-    <nav class="main-nav main-nav--nojs">
-      <button class="main-nav__toggle main-nav__toggle--closed" type="button">
-        <span class="visually-hidden">Открыть меню.</span>
+    <nav class="main-nav">
+      <button class="main-nav__toggle-close" type="button">
+        <span class="visually-hidden">Закрыть меню.</span>
       </button>
       <ul class="main-nav__list main-nav__list--closed">
         <li class="main-nav__item">
@@ -134,7 +137,7 @@
             srcset="images/tablet-after@1x.png 1x, images/tablet-after@2x.png 2x" width="552" height="499">
           <source type="image/png" media="(min-width: 768px)"
             srcset="images/tablet-after@1x.png 1x, images/tablet-after@2x.png 2x" width="709" height="609">
-          <img class="promo__img" src="/source/images/mobile-after@1x.png" srcset="images/mobile-after@2x.png 2x"
+          <img class="example__img" src="/source/images/mobile-after@1x.png" srcset="images/mobile-after@2x.png 2x"
             width="280" height="270" alt="После курса">
         </picture>
         <picture>
@@ -142,7 +145,7 @@
             srcset="images/tablet-before@1x.png 1x, images/tablet-before@2x.png 2x" width="552" height="499">
           <source type="image/png" media="(min-width: 768px)"
             srcset="images/tablet-before@1x.png 1x, images/tablet-before@2x.png 2x" width="709" height="609">
-          <img class="promo__img" src="/source/images/mobile-before@1x.png" srcset="images/mobile-beforer@2x.png 2x"
+          <img class="example__img" src="/source/images/mobile-before@1x.png" srcset="images/mobile-beforer@2x.png 2x"
             width="280" height="270" alt="До курса">
         </picture>
         <div class="example__range-bar">
@@ -163,11 +166,10 @@
       <div class="contacts__map-wrapper">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3361.237169710007!2d30.318251659406503!3d59.93871994200683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1706432177645!5m2!1sru!2sru"
-          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
+          width="600" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
       </div>
     </section>
-
   </main>
 
   <footer class="main-footer">
