@@ -1,0 +1,38 @@
+.list {
+  display: grid;
+  margin-bottom: 30px;
+  row-gap: 13px;
+}
+
+.list__item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 19px;
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.list__title {
+  font-family: "Oswald", "Arial", serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #222222;
+  margin: 0;
+  margin-bottom: 13px;
+  grid-column: span 2;
+}
+
+.list__description {
+  line-height: 14px;
+}
+
+.list__price {
+  line-height: 14px;
+  text-align: end;
+}
+
+.list__link {
+  margin-top: 15px;
+  text-align: center;
+}

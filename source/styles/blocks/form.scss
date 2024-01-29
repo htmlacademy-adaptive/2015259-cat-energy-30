@@ -1,0 +1,167 @@
+.form {
+  background-color: #ffffff;
+  font-family: "Oswald", "Arial", serif;
+  font-size: 16px;
+}
+
+.form__group {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.form__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.form__item {
+  margin-bottom: 2px;
+  padding: 6px 0;
+}
+
+
+.form__title {
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #000000;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+
+.form__title-text {
+  max-width: 187px;
+}
+
+.form__label {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.form__label-text {
+  color: #444444;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+.form__input {
+  font-family: "Oswald", "Arial", serif;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #444444;
+  border: 1px solid #e7e7e7;
+  padding: 13px 40px 12px 15px;
+  margin-left: 13px;
+  flex-grow: 1;
+}
+
+.form__label-wrapper {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.form__group--contacts svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 12px;
+  --email-color: #000000;
+  --phone-color: #000000;
+}
+
+.form__input::-webkit-outer-spin-button,
+.form__input::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+.form__input[type="number"] {
+  appearance: textfield;
+}
+
+.form__text {
+  display: block;
+}
+
+.form__mark {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 1px solid #e7e7e7;
+}
+
+.form__check:checked + .form__mark--radio::before {
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  background-color: #68b738;
+  border-radius: 50%;
+  content: "";
+}
+
+.form__check:focus-visible + .form__mark {
+  outline: 2px solid #000000;
+  opacity: 0.8;
+}
+
+.form__check:checked + .form__mark--checkbox::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 26px;
+  height: 26px;
+  background-size: contain;
+  background-position: center;
+}
+
+.form__textarea {
+  width: 100%;
+  min-height: 150px;
+  font-family: "Oswald", "Arial", serif;
+  font-size: 16px;
+  line-height: 18px;
+  color: #444444;
+  text-transform: uppercase;
+  border: 1px solid #e7e7e7;
+  margin-top: 4px;
+  margin-right: 20px;
+  padding: 13px 14px;
+  resize: none;
+}
+
+.form__button {
+  border: none;
+  width: 100%;
+  margin-bottom: 21px;
+}
+
+.form__footnote {
+  display: block;
+  text-align: center;
+  font-family: "Lato", "Arial", serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.form__wrapper {
+  padding: 0 20px 32px;
+}

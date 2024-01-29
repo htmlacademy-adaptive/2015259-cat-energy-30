@@ -1,0 +1,23 @@
+.main-header {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header__logo {
+  display: flex;
+  align-items: center;
+  padding: 13px 20px 19px;
+
+  &-img {
+    display: inline-block;
+    margin-right: 56px;
+  }
+
+  &--caption {
+    display: block;
+  }
+}
+

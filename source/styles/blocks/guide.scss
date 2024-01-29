@@ -1,0 +1,36 @@
+.guide__wrapper {
+  margin: 0 auto;
+  padding: 24px 20px 49px;
+
+}
+
+.guide__title {
+  font-family: "Oswald", "Arial", serif;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 40px;
+
+}
+
+.guide__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  row-gap: 20px;
+
+}
+
+.guide__item {
+  display: flex;
+  align-items: center;
+
+}
+
+.guide__count {
+  display: none;
+
+}

@@ -1,0 +1,47 @@
+.main-footer {
+  background-color: #f2f2f2;
+}
+
+.main-footer__wrapper {
+  padding: 40px 20px;
+  text-align: center;
+
+}
+
+.main-footer__logo-link {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  padding-bottom: 19px;
+  border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 20px;
+
+}
+
+.main-footer__social {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #d9d9d9;
+
+}
+
+.main-footer__academy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-footer__academy-text {
+  color: #444444;
+  font-family: "Lato", "Arial", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+
+}
+
+
