@@ -24,6 +24,40 @@
 .guide__item {
   display: flex;
   align-items: center;
+
+  &::before {
+    content: "";
+    min-width: 60px;
+    height: 60px;
+    background-color: #68b738;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 20px;
+  }
+
+  &--leaf::before {
+    background-position: 17px 16px;
+    background-image: url("../../images/sprite.svg#icon__leaf");
+  }
+
+  &--water::before {
+    background-position: 17px 16px;
+    background-image: url("../../images/sprite.svg#icon__water");
+  }
+
+  &--food::before {
+    background-position: 17px 16px;
+    background-image: url("../../images/sprite.svg#icon__food");
+  }
+
+  &--time::before {
+    background-position: 17px 16px;
+    background-image: url("../../images/sprite.svg#icon__time");
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .guide__count {

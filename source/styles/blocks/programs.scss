@@ -7,6 +7,30 @@
   padding: 28px 33px 20px 20px;
   margin-bottom: 20px;
   position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+
+  &--slim::after {
+    width: 36px;
+    height: 50px;
+    background-image: url("../../images/sprite.svg#cat-slim");
+    top: 21px;
+    left: 27px;
+  }
+
+  &--pro::after {
+    width: 67px;
+    height: 28px;
+    background-image: url("../../images/sprite.svg#cat-pro");
+    top: 35px;
+    left: 13px;
+  }
 }
 
 .programs__title {
