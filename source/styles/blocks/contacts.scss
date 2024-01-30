@@ -39,10 +39,11 @@
   width: 140px;
 }
 
-.contacts__map {
-  display: block;
+.contacts iframe {
   border: none;
+  display: block;
   width: 100%;
+}
 
   @media (min-width: $tablet-width) {
     min-height: 400px;
