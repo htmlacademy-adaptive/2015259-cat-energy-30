@@ -10,4 +10,13 @@
   line-height: 18px;
   color: #000000;
   height: 100%;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  @media (min-width: $desktop-width) {
+    position: relative;
+  }
 }

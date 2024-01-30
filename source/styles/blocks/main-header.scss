@@ -4,6 +4,17 @@
   position: relative;
   justify-content: space-between;
   align-items: center;
+
+  @media (min-width: $tablet-width) {
+    padding: 25px 29px 32px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 55px 110px;
+    position: absolute;
+    //width: 100%;
+    min-width: calc(1440px - 110px);
+  }
 }
 
 .main-header__logo {
@@ -14,6 +25,18 @@
   &-img {
     display: inline-block;
     margin-right: 56px;
+
+    @media (min-width: $tablet-width) {
+      margin-right: 13px;
+    }
+
+    @media (min-width: $desktop-width) {
+      margin-right: 14px;
+    }
+  }
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
   }
 
   &--caption {

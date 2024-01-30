@@ -7,4 +7,18 @@
   font-weight: 400;
   border-top: 1px solid #d9d9d9;
   border-bottom: 1px solid #ebebeb;
+
+  @media (min-width: $tablet-width) {
+    border: none;
+    padding: 28px 30px 84px;
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0;
+    padding: 188px 110px 90px;
+    font-size: 60px;
+    line-height: 60px;
+  }
 }

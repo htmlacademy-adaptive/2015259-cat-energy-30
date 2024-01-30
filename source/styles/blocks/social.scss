@@ -3,6 +3,11 @@
   gap: 22px;
   margin-left: 3px;
   justify-content: center;
+
+  @media (min-width: $tablet-width) {
+    gap: 23px;
+    margin-left: 37px;
+  }
 }
 
 .social__item {
