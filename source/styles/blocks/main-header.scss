@@ -12,8 +12,7 @@
   @media (min-width: $desktop-width) {
     padding: 55px 110px;
     position: absolute;
-    //width: 100%;
-    min-width: calc(1440px - 110px);
+    min-width: calc(1440px - 220px);
   }
 }
 

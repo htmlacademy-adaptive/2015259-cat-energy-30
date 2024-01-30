@@ -51,6 +51,8 @@
   .present {
     position: relative;
     background-image: url("../../images/background-catalog-tablet@1x.jpg");
+    background-color: rgba(104, 183, 56, 0.85);
+    background-blend-mode: overlay;
     width: 100%;
     min-height: 200px;
     margin: 0 auto;

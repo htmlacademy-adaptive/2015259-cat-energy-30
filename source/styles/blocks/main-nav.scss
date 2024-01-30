@@ -32,14 +32,14 @@
 .main-nav__toggle {
   cursor: pointer;
   padding: 12px;
-  background-image: url("../img/sprite.svg#toggle");
+  background-image: url("../../images/sprite.svg#toggle");
   background-repeat: no-repeat;
   background-color: #ffffff;
   background-position: center;
   border: none;
 
   &--opened {
-    background-image: url("../img/sprite.svg#toggle-close");
+    background-image: url("../../images/sprite.svg#toggle-close");
   }
 
   @media (min-width: $tablet-width) {
@@ -127,10 +127,10 @@
   display: block;
   font-family: "Oswald", "Arial", serif;
   font-size: 20px;
+  text-decoration: none;
   text-transform: uppercase;
   color: #000000;
   line-height: 20px;
-  text-decoration: none;
 
 
   @media (min-width: $tablet-width) {
