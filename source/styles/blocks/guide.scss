@@ -57,6 +57,7 @@
 .guide__item {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 
   &::before {
     content: "";
@@ -274,6 +275,7 @@
   margin: 0;
   position: absolute;
   left: 80px;
+  min-width: 200px;
 
   @media (min-width: $tablet-width) {
     left: 0;
