@@ -212,7 +212,6 @@
   margin: 0 auto;
   position: absolute;
   z-index: 1;
-  left: 30%;
 
   @media (min-width: $tablet-width) {
     right: 300px;
@@ -251,10 +250,20 @@
 
   &:hover {
     background-color: #68b738;
+
+    .example__range-toggle svg {
+      --toggle-color: #68b738;
+    }
   }
 
   &:active {
+    background-color: #5eaa2f;
     opacity: 0.6;
+
+    .example__range-toggle svg {
+      --toggle-color: #5eaa2f;
+      opacity: 0.6;
+    }
   }
 }
 
