@@ -1,10 +1,21 @@
 .example {
   background-color: #eaeaea;
+  height: 659px;
 
   @media (min-width: $tablet-width) {
     background-color: #ffffff;
     position: relative;
 
+    &::after {
+      content: "";
+      width: 100%;
+      height: 462px;
+      position: absolute;
+      background-color: #eaeaea;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
     &::after {
       content: "";
       width: 100%;
@@ -44,7 +55,6 @@
   @media (min-width: $tablet-width) {
     font-size: 60px;
     line-height: 60px;
-    margin-top: 92px;
     margin-bottom: 60px;
   }
 
@@ -197,7 +207,19 @@
 .example__img {
   display: block;
   margin: 0 auto;
-  position: relative;
+  position: absolute;
+  z-index: 1;
+  left: 30%;
+
+  @media (min-width: $tablet-width) {
+    right: 300px;
+  }
+
+  @media (min-width: $desktop-width) {
+    left: 61%;
+    right: 290px;
+    bottom: 200px;
+  }
 }
 
 .example__range-bar {
@@ -209,9 +231,10 @@
   top: 1930px;
   background-color: #666666;
   border-radius: 2px;
+  z-index: 2;
 
   @media (min-width: $tablet-width) {
-    top: 469px;
+    top: 450px;
     height: 512px;
     bottom: 101px;
   }
