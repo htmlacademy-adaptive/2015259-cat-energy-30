@@ -6,7 +6,7 @@
 
   &::before {
     content: "";
-    background-image: url(../../images/index-background-mobile@1x.jpg);
+    background-image: url("../../images/index-background-mobile@1x.jpg");
     background-color: rgba(104, 183, 56, 0.85);
     background-blend-mode: overlay;
     background-size: 270px 310px;
