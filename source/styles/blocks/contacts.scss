@@ -47,34 +47,34 @@
   @media (min-width: $tablet-width) {
     min-height: 400px;
   }
-}
 
- @media (min-width: $tablet-width) {
-  .contacts {
-    padding-top: 60px;
-  }
+  @media (min-width: $tablet-width) {
+    .contacts {
+      padding-top: 60px;
+    }
 
-  .contacts__wrapper {
-    justify-content: space-between;
-    padding: 0 70px;
-    margin-bottom: 60px;
-    left: 110px;
-    top: 95px;
-  }
+    .contacts__wrapper {
+      justify-content: space-between;
+      padding: 0 70px;
+      margin-bottom: 60px;
+      left: 110px;
+      top: 95px;
+    }
 
-  .contacts__lead {
-    font-size: 20px;
-    line-height: 26px;
-    width: 163px;
-  }
+    .contacts__lead {
+      font-size: 20px;
+      line-height: 26px;
+      width: 163px;
+    }
 
-  .contacts__address {
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-    gap: 19px;
-    line-height: 20px;
-    width: 160px;
+    .contacts__address {
+      text-align: right;
+      display: flex;
+      flex-direction: column;
+      gap: 19px;
+      line-height: 20px;
+      width: 160px;
+    }
   }
 }
 

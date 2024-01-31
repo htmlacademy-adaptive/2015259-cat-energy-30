@@ -212,13 +212,15 @@
   margin: 0 auto;
   position: absolute;
   z-index: 1;
+  left: 20px;
 
   @media (min-width: $tablet-width) {
     right: 300px;
+    left: 248px;
   }
 
   @media (min-width: $desktop-width) {
-    left: 61%;
+    left: 63%;
     right: 290px;
     bottom: 200px;
   }
